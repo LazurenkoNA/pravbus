@@ -1,0 +1,52 @@
+.title {
+  @include fw700;
+  font-size: 97px;
+  line-height: 117px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  @include fw700;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: $Yellow;
+}
+
+.text {
+  color: #fff;
+  font-size: 30px;
+}
+
+.text-price {
+  display: inline-block;
+  padding: 0 20px;
+  @include fw700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+  background-color: $Red;
+  sup {
+    font-size: 33px;
+  }
+  span {
+    font-size: 25px;
+  }
+}
+
+.footnote {
+  color: #fff;
+  font-size: 25px;
+}
+
+.title-section {
+  @include fw900;
+  font-size: 60px;
+  line-height: 60px;
+  color: $Grey;
+}
+
+.label-info {
+  color: #fff;
+  font-size: 16px;
+}

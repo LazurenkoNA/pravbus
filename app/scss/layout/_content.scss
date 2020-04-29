@@ -1,0 +1,48 @@
+.content {
+  &__wrapper {
+    padding: 120px 0 50px;
+    @include bg-img;
+  }
+
+  &__inner {
+    .title {
+      position: relative;
+      display: flex;
+      margin-bottom: 40px;
+      align-items: center;
+
+      &::before {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        content: "";
+        width: 73px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: $Yellow;
+      }
+
+      img {
+        padding: 0 20px;
+      }
+
+      .text-price {
+        margin-top: 5px;
+        margin-left: 25px;
+      }
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+    }
+
+    .text {
+      max-width: 1000px;
+      margin-bottom: 50px;
+    }
+
+    .button-yellow {
+      margin-bottom: 110px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@mixin fw300 {
+  font-family: "Lato-Light";
+  font-weight: 300;
+}
+
+@mixin fw600 {
+  font-family: "Lato-Semibold";
+  font-weight: 600;
+}
+
+@mixin fw700 {
+  font-family: "Lato-Bold";
+  font-weight: 700;
+}
+
+@mixin fw900 {
+  font-family: "Lato-Black";
+  font-weight: 900;
+}
+
+@mixin bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

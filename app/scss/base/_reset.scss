@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $Grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 0px;
+}
+
+ul,
+li,
+body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Lato-Medium";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+
+  color: $Grey;
+}
+
+.container {
+  max-width: 1590px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

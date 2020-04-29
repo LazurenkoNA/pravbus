@@ -1,0 +1,46 @@
+.about {
+  &__wrapper {
+    padding: 135px 0 100px;
+  }
+
+  &__box {
+    display: flex;
+  }
+
+  .title-section {
+    margin-bottom: 100px;
+  }
+}
+
+.about-item {
+  max-width: 530px;
+  max-height: 720px;
+  padding: 150px 50px 100px;
+  text-align: center;
+
+  &:nth-child(odd) {
+    background-color: $liteGrey;
+  }
+
+  &__img {
+    max-width: 140px;
+    max-height: 160px;
+    height: 100%;
+    transition: all 0.3s;
+  }
+
+  &:hover &__img {
+    transform: translateY(-20px);
+  }
+
+  &__title {
+    padding: 50px 0;
+    text-transform: uppercase;
+    @include fw900;
+  }
+
+  &__text {
+    @include fw300;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,48 @@
+.price {
+  &__wrapper {
+    padding: 150px 0 30px;
+  }
+
+  &__box {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    thead {
+      th {
+        padding-bottom: 30px;
+        @include fw300;
+        font-size: 56px;
+        img {
+          padding: 0 20px;
+        }
+      }
+    }
+
+    tbody {
+      td {
+        padding: 15px 0;
+        &:last-child {
+          @include fw300;
+        }
+      }
+    }
+  }
+
+  &__map {
+  }
+
+  .title-section {
+    margin-bottom: 100px;
+  }
+
+  .footnote {
+    margin: 50px 0 30px;
+    color: $Grey;
+    font-size: 22px;
+    @include fw300;
+  }
+}

@@ -1,0 +1,31 @@
+.form-map {
+  &__wrapper {
+    position: relative;
+    margin-bottom: 100px;
+    text-align: right;
+  }
+
+  .form__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  .map {
+    margin-left: 200px;
+    img {
+      min-height: 609px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .button-yellow {
+    height: 50px;
+    padding: 12px 52px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 240px;
+  }
+}

@@ -1,0 +1,11 @@
+.footer {
+  background-color: #000;
+
+  .header__contact-phone {
+    color: #fff;
+
+    &:last-of-type {
+      border-color: #fff;
+    }
+  }
+}

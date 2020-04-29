@@ -1,0 +1,39 @@
+.history {
+  &__wrapper {
+    position: relative;
+    padding: 150px 0 80px;
+    @include bg-img;
+
+    &::before {
+      position: absolute;
+      top: 75px;
+      left: 48%;
+      content: "";
+      width: 73px;
+      height: 5px;
+      border-radius: 10px;
+      background-color: $Yellow;
+    }
+
+    .text {
+      z-index: 1;
+      text-align: center;
+
+      &:nth-child(1) {
+        margin-bottom: 30px;
+        font-size: 22px;
+        line-height: 25px;
+      }
+      &:nth-child(2) {
+        max-height: 120px;
+        margin-bottom: 50px;
+        line-height: 30px;
+        overflow: hidden;
+      }
+      &:nth-child(3) {
+        @include fw600;
+        font-style: italic;
+      }
+    }
+  }
+}

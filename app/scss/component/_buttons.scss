@@ -1,0 +1,12 @@
+.button-yellow {
+  padding: 33px 144px;
+  background-color: $Yellow;
+  text-transform: uppercase;
+  font-size: 44px;
+  border-radius: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #fff;
+  }
+}

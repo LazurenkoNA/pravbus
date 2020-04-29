@@ -1,0 +1,69 @@
+.gallery {
+  &__wrapper {
+    padding: 100px 0 100px;
+    text-align: center;
+    background-color: $darkGrey;
+  }
+
+  &__slider {
+  }
+
+  .title-section {
+    position: relative;
+    margin-bottom: 90px;
+    color: #fff;
+    &::before {
+      position: absolute;
+      top: 110px;
+      left: 48%;
+      content: "";
+      width: 73px;
+      height: 5px;
+      border-radius: 10px;
+      background-color: #ffd000;
+    }
+  }
+  .text {
+    margin-bottom: 80px;
+    font-size: 25px;
+    @include fw300;
+  }
+  .swiper {
+    &-container {
+      position: relative;
+      padding-bottom: 90px;
+    }
+    &-wrapper {
+      display: flex;
+    }
+    &-slide {
+      margin-right: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &-scrollbar {
+      position: absolute;
+      left: 20%;
+      bottom: 15px;
+      width: 60%;
+      height: 15px;
+      background-color: $Grey;
+      border-radius: 50px;
+
+      &-drag {
+        background: $Yellow;
+      }
+    }
+  }
+
+  .swiper-pagination-bullet {
+    display: none;
+  }
+}

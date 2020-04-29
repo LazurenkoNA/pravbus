@@ -1,0 +1,49 @@
+.header {
+  &__top {
+    &-wrapper {
+      display: flex;
+      padding: 40px 0;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+
+    &-phone {
+      position: relative;
+      padding: 0 22px;
+      transition: all 0.3s;
+      &:hover {
+        color: $Yellow;
+      }
+
+      &:last-of-type {
+        border-left: 1px solid $darkGrey;
+      }
+    }
+  }
+
+  &__navigation {
+    background-color: $Yellow;
+  }
+}
+
+.menu {
+  &__item {
+    margin: 30px 20px;
+    color: #000;
+    transition: all 0.3s;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
