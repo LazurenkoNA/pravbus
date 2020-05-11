@@ -27,6 +27,7 @@ gulp.task("style", function () {
       "node_modules/normalize.css/normalize.css",
       "node_modules/slick-carousel/slick/slick.css",
       "node_modules/swiper/css/swiper.min.css",
+      "node_modules/animate.css/animate.min.css",
     ])
     .pipe(concat("libs.min.css"))
     .pipe(cssmin())
@@ -38,6 +39,7 @@ gulp.task("script", function () {
     .src([
       "node_modules/slick-carousel/slick/slick.js",
       "node_modules/swiper/js/swiper.min.js",
+      "node_modules/wow.js/dist/wow.min.js",
       // "app/js/main.js",
     ])
     .pipe(concat("libs.min.js"))

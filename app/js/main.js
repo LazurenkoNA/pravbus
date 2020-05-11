@@ -45,3 +45,5 @@ const gallerySwiper = new Swiper(".swiper-container", {
     // clickable: true,
   },
 });
+
+new WOW().init();
